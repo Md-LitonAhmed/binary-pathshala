@@ -1,0 +1,11 @@
+h2{
+    text-align: center;
+    color: blue;
+}
+.cart-container{
+    padding: 10px;
+    background-color: aliceblue;
+}
+#price{
+    color: goldenrod;
+}

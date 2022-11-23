@@ -1,0 +1,12 @@
+#price{
+    color: goldenrod;
+    font-size: larger;
+    font-weight: bold;
+}
+.card{
+    width: 12rem;
+    margin-bottom: 10px;
+}
+.card:hover{
+    box-shadow: 2px 2px 3px gray;
+}
