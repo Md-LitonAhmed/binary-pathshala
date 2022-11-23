@@ -6,15 +6,15 @@ import { faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 
 
 function Course(props) {
-    const {img, price, name}=props.data;
+    const {img, price, name,Description}=props.data;
     const handler=props.handler;
   return (
     <Card >
       <Card.Img variant="top" src={img} />
       <Card.Body>
-        <Card.Title>{name}</Card.Title>
+        <Card.Title><span id='titleColor'>{name}</span></Card.Title>
         <Card.Text>
-        HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
+          {Description}
           <br />
           <p id='price'>Price: {price}$</p>
         </Card.Text>

@@ -1,6 +1,6 @@
 .course-container{
     display: grid;
-    column-gap: 10px;
+    column-gap: 10px; 
     margin-left: 20px;
 }
 
@@ -21,7 +21,7 @@
     .course-container {
         display: grid;
         grid-template-columns: auto auto ;
-        justify-content: space-between;
+      
       
 
     }

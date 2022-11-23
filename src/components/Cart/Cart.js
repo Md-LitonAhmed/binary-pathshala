@@ -16,10 +16,10 @@ export default function Cart(props) {
     <div>
        <div className='cart-container'>
         <h2> Cart Summary</h2>
-        <h3>Course Name: {Fname}</h3>
+        <h3><span id='nameColor'> Name:</span> {Fname}</h3>
         <p><span id='price'>Price:</span> {price}$</p>
-        <p>Added Courses: {cart.length}</p>
-      <p>Total Price: {total}$</p>
+        <p> <span id='nameColor'>Added Courses:</span>  {cart.length}</p>
+      <p> <span id='nameColor'>Total Price:</span> {total}$</p>
        </div>
     </div>
   )

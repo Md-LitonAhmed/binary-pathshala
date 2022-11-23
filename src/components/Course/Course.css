@@ -6,7 +6,11 @@
 .card{
     width: 12rem;
     margin-bottom: 10px;
+    text-align: start;
 }
 .card:hover{
     box-shadow: 2px 2px 3px gray;
+}
+#titleColor{
+    color: purple;
 }
