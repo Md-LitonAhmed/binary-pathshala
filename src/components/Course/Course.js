@@ -14,7 +14,7 @@ function Course(props) {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title 
+        HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
           <br />
           <p id='price'>Price: {price}$</p>
         </Card.Text>
