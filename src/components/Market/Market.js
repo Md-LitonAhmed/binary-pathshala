@@ -19,7 +19,8 @@ export default function Courses() {
      <div className='course-container'>
      {Data.map((data)=> <Course data={data} key={data.id} handler={handler}></Course> )}
     </div>
-    <div>
+
+    <div className='cart-container'>
      <Cart cart={cart}/>
     </div>
    </div>
