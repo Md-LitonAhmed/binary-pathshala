@@ -1,6 +1,7 @@
 .course-container{
     display: grid;
     column-gap: 10px;
+    margin-left: 20px;
 }
 
 .market-container{
